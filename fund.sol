@@ -9,7 +9,7 @@ contract Fund{
 //create a function with keyword payable to enable the funding transaction to work
     function fund() public payable {
         AddressFunded[msg.sender] += msg.value;
-        
+         
     }
 
 }
